@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="font-family: Arial, sans-serif;">
+    <section id="heading" style="background-color: blue; padding: 10px; color:white; text-align:center">
+        <h1>HTML Video/Audio</h1>
+        <button><a href="#Video-section">Video</a></button>
+        <button><a href="#Audio-section">Audio</a></button>
+    </section>
+    <!-- Video Syntax -->
+   <section id="Video-section" style="background-color: antiquewhite; padding: 10px;" >
+        <center><h1>Video Section</h1></center>
+        <!-- Poster -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <video controls poster="./pics/lepord.jpeg" width="400" style="border-radius: 10px;">
+                    <source src="./Video/Lepord.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Video with Poster </h2>
+            </div>
+        </div>
+        <!-- Muted -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <video controls muted poster="./pics/spider.jpg" width="400" style="border-radius: 20px;">
+                    <source src="./Video/Spider-Man.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Video with muted </h2>
+            </div>
+        </div>
+        <!-- Autoplay -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <video controls Autoplay muted poster="./pics/sasmung.jpg" width="400" style="border-radius:20px">
+                    <source src="./Video/4K- SAMSUNG UHD.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Video with Autoplay </h2>
+            </div>
+        </div>
+        <!-- Loop -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <video controls loop poster="./pics/earth.jpg" width="400" style="border-radius: 20px;">
+                    <source src="./Video/4K-Planet.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Video with Loop </h2>
+            </div>
+        </div>
+   </section>
+
+
+   <!-- Audio Syntax -->
+    <section id="Audio-section" style="background-color: lightyellow; padding: 10px;">
+        <center><h1>Audio Section</h1></center>
+       <!-- Muted -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <audio controls muted>
+                    <source src="./Audio/Pin-genrator.mpeg" type="audio/mpeg">
+                </audio>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Audio with muted </h2>
+            </div>
+        </div>
+        <!-- Autoplay -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <audio controls autoplay>
+                    <source src="./Audio/greeting-team.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Audio with Autoplay </h2>
+            </div>
+        </div>
+        <!-- Loop -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <audio controls loop>
+                    <source src="./Audio/good-ev.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Audio with Loop </h2>
+            </div>
+        </div>
+        <center><button><a href="#heading">Back to Top</a></button></center>
+   </section>
+   <section style="background-color: blue; padding: 10px; text-align:center; color:white">
+    <p><b>&copy; 2023</b> My Website. All rights reserved.</p>
+   </section>
+
+
+
+</body>
+</html>
