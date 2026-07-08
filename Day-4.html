@@ -1,11 +1,312 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>List</title>
 </head>
-<body>
-    
+
+<body style="font-family: Arial, sans-serif; line-height: 1.6;">
+    <main id="list-section" style="background-color: antiquewhite;">
+        <CENTER>
+            <h1>Type of Lists </h1>
+        </CENTER>
+        <section style="display: flex; justify-content: space-around;">
+            <!-- Ordered List -->
+            <div>
+                <h1>Ordered List</h1>
+
+                <ol>
+                    <li>
+                        <h3>Numbered Order</h3>
+                        <p><u>Default Order</u></p>
+                        <ol>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                        </ol>
+                        <p><u>Reversed Order</u></p>
+                        <ol reversed>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                        </ol>
+                        <p><u>Number starts Order</u></p>
+                        <ol reversed start="5">
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                        </ol>
+                        <p><u>Continuation Order</u></p>
+                        <ol>
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                        </ol>
+                        <p>These are some examples of <br>ordered lists in HTML. <br>Ordered lists are used to display
+                            <br>items in a specific
+                            order,<br> and they can be<br> customized with different <br>types of numbering or
+                            lettering.
+                        </p>
+                        <ol start="4">
+                            <li>React</li>
+                            <li>Node.js</li>
+                            <li>Wordpress</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <h3>Alphabetical Order</h3>
+                        <p><u>Uppercase Letters</u></p>
+                        <ol type="A">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                        <p><u>Lowercase Letters</u></p>
+                        <ol type="a">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                    </li>
+
+                    <li>
+                        <h3>Roman Order</h3>
+                        <p><u>Default Roman Order</u></p>
+                        <ol type="I">
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                        <p><u>Reversed Roman Order</u></p>
+                        <ol type="I" reversed>
+                            <li>Item 1</li>
+                            <li>Item 2</li>
+                            <li>Item 3</li>
+                        </ol>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Unordered List -->
+            <div>
+                <h1>Unordered List</h1>
+                <ol>
+                    <li>
+                        <p><u>Default Order</u></p>
+                        <ul type="disc">
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><u>Square Order</u></p>
+                        <ul type="square">
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><u>Circle Order</u></p>
+                        <ul type="circle">
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><u>Non Bullet Order</u></p>
+                        <ul type="none">
+                            <li>Html</li>
+                            <li>Css</li>
+                            <li>Javascript</li>
+                        </ul>
+                    </li>
+                    <li>
+                        <p><u>Nested list Order</u></p>
+                        <ul>
+                            <li>Html</li>
+                            <ul type="disc">
+                                <li>Creation</li>
+                                <li>Development</li>
+                                <li>Testing</li>
+                            </ul>
+                            <li>Css</li>
+                            <ul>
+                                <li>Styles</li>
+                                <li>Layout</li>
+                                <li>Responsive</li>
+                            </ul>
+                            <li>Javascript</li>
+                            <ol>
+                                <li>Variables</li>
+                                <li>Functions</li>
+                                <li>Events</li>
+                            </ol>
+                        </ul>
+                    </li>
+                </ol>
+            </div>
+
+            <!-- Description List -->
+            <div>
+                <h1>Description List</h1>
+                <p><u>Default Order</u></p>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Hypertext Markup Language</dd>
+                    <dt>CSS</dt>
+                    <dd>Cascading Style Sheets</dd>
+                    <dt>JS</dt>
+                    <dd>JavaScript</dd>
+                </dl>
+            </div>
+        </section>
+    </main>
+    <section style="background-color: lightgray; padding: 20px;  ">
+        <center><h1>Biography</h1></center>
+        <div style="line-height: 0.3;">
+        <h2>MS Dhoni</h2>
+        <small>Indian Cricketer</small>
+        </div>
+        <p>M.S. Dhoni is a former Indian cricketer and the former captain of the Indian national team. He is known for his calm demeanor and exceptional leadership skills on the field.  Widely regarded as one of the most prolific wicket-keeper batsmen and captains, he represented the Indian cricket team and was the captain of the team in limited overs formats from 2007 to 2017 and in Test cricket from 2008 to 2014. Dhoni has captained the most international matches and is the most successful Indian captain. He has led India to victory in the 2007 ICC World Twenty20, the 2011 Cricket World Cup, and the 2013 ICC Champions Trophy, being the only captain to win three different limited overs ICC tournaments. He also led the teams that won the Asia Cup in 2010 and 2016, and he was a member of the title winning squad in 2018.</p>
+        <div style="display: flex; background-color:white; border-radius: 20px; height:350px; margin:20px; box-shadow:2px 2px 5px black ;">
+            <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLIjXMU_dv9-RvqSIoQnadc6oxeChtYcBLfNSLE-Ig0zwWfXO48L7rAoQIquiI3BNeu9R2aBsQ0McadoGxlhuRqeC5svN7F5uVPIUZmH4&s=" alt="MS Dhoni" style="width: 300px; border-top-left-radius: 20px; height: 350px; border-bottom-left-radius: 20px;">
+            </div>
+            <div style="padding: 20px; margin-left:50px;">
+                <p><strong>Name:</strong> M.S. Dhoni</p>
+                <p><strong>Birth Date:</strong> July 7, 1981</p>
+                <p><strong>Born:</strong> Ranchi, Bihar, India</p>
+                <p><strong>Height:</strong> 5 ft 10 in (1.78 m)</p>
+                <p><strong>Spouse:</strong> Sakshi Rawat</p>
+                <p><strong>Role:</strong> Wicket-keeper Batter</p>
+                <p><strong>Awards:</strong> Padma Bhushan (2018)</p>
+            </div>
+        </div>
+        <div style="display: flex; background-color:white; border-radius: 20px; height:350px; margin:20px; box-shadow:2px 2px 5px black ;">
+             <div>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF9b2_jyjFb5qpQYh8L86C3WKBci08fq9d8wS6XXWdMA&s" alt="MS Dhoni untols story" style="width: 300px; border-top-left-radius: 20px; height: 350px; border-bottom-left-radius: 20px;">
+            </div>
+            <div style="padding: 20px; margin-left:50px;">
+                <p><strong>MS Dhoni: </strong>The Untold Story is a 2016 Indian Hindi-language biographical sports drama film directed and co-written by <mark>Neeraj Pandey</mark>. It is based on the life of former Test, ODI and T20I captain of the Indian national cricket team, <strong>Mahendra Singh Dhoni</strong>, who is played by <mark>Sushant Singh Rajput</mark>. The film ensemble cast includes Disha Patani, Kiara Advani, and Anupam Kher. The film chronicles the life of Dhoni from a young age through a series of life events. The idea of the biopic was put forward by Dhoni's manager, Arun Pandey, after encountering an incident at an airport after the 2011 Cricket World Cup Final.</p>
+               <button style="background-color:blue;  padding: 10px; border-radius: 10px; border-width: 0px;"><a href="https://www.youtube.com/watch?v=Y8LykuQzK-s" target="_blank" style="color:white; text-decoration: none;">Watch Movie</a></button>
+            </div>
+        </div>
+        <div style="display: flex; background-color:white; border-radius: 20px; height:400px; margin:20px; box-shadow:2px 2px 5px black ;">
+            <img src="https://i.pinimg.com/736x/b6/8b/22/b68b22588f79d7ec2e8e3b672a27527a.jpg" style="width:325px; height:400px;border-top-left-radius: 20px; border-bottom-left-radius: 20px; margin-left: 15px;">
+
+            <img src="https://i.pinimg.com/1200x/6a/49/a4/6a49a4fb398343e6580710f03374d0f2.jpg" style="width:325px; height:400px;">
+            
+
+            <img src="https://i.pinimg.com/736x/39/ce/52/39ce526b88945fa0a2635868ff81ef27.jpg" style="width:325px; height:400px;">
+
+            <img src="https://i.pinimg.com/736x/3c/62/77/3c6277db210db6f7d4fb28716a31b096.jpg" style="width:325px; height:400px; border-top-right-radius: 20px; border-bottom-right-radius: 20px;">
+
+        </div>
+    </section>
+    <section>
+         <section id="heading" style="background-color: blue; padding: 10px; color:white; text-align:center">
+        <h1>HTML Video/Audio</h1>
+        <button><a href="#Video-section">Video</a></button>
+        <button><a href="#Audio-section">Audio</a></button>
+    </section>
+    <!-- Video Syntax -->
+   <section id="Video-section" style="background-color: antiquewhite; padding: 10px;" >
+        <center><h1>Video Section</h1></center>
+        <!-- Poster -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <video controls poster="./pics/lepord.jpeg" width="400" style="border-radius: 10px;">
+                    <source src="./Video/Lepord.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Video with Poster </h2>
+            </div>
+        </div>
+        <!-- Muted -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <video controls muted poster="./pics/spider.jpg" width="400" style="border-radius: 20px;">
+                    <source src="./Video/Spider-Man.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Video with muted </h2>
+            </div>
+        </div>
+        <!-- Autoplay -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <video controls Autoplay muted poster="./pics/sasmung.jpg" width="400" style="border-radius:20px">
+                    <source src="./Video/4K- SAMSUNG UHD.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Video with Autoplay </h2>
+            </div>
+        </div>
+        <!-- Loop -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <video controls loop poster="./pics/earth.jpg" width="400" style="border-radius: 20px;">
+                    <source src="./Video/4K-Planet.mp4" type="video/mp4">
+                </video>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Video with Loop </h2>
+            </div>
+        </div>
+   </section>
+
+
+   <!-- Audio Syntax -->
+    <section id="Audio-section" style="background-color: lightyellow; padding: 10px;">
+        <center><h1>Audio Section</h1></center>
+       <!-- Muted -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <audio controls muted>
+                    <source src="./Audio/Pin-genrator.mpeg" type="audio/mpeg">
+                </audio>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Audio with muted </h2>
+            </div>
+        </div>
+        <!-- Autoplay -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <audio controls autoplay>
+                    <source src="./Audio/greeting-team.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Audio with Autoplay </h2>
+            </div>
+        </div>
+        <!-- Loop -->
+        <div style="background-color:white; border: 1px solid black; box-shadow: 0 2px 8px rgba(0,0,0,0.1); padding:10px; border-radius:10px; margin:15px; display:flex; justify-content: space-around;">
+            <div>
+                <audio controls loop>
+                    <source src="./Audio/good-ev.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+            <div  style="display: flex; flex-direction: column; justify-content: center;">
+                <h2>Audio with Loop </h2>
+            </div>
+        </div>
+        <center><button><a href="#heading">Back to Top</a></button></center>
+   </section>
+    </section>
+    <section style="background-color: blue; padding: 10px; color:white; text-align: center;">
+        <p><b>&copy;</b> 2026. All Rights are Reserved</p>
+    </section>
 </body>
+
 </html>
