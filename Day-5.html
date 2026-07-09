@@ -4,18 +4,157 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
 </head>
-<body>
-    <ol reversed start="10">
-        <li>Html</li>
-        <li>Css</li>
-        <li>JavaScript</li>
-    </ol>
-    <p>This is a paragraph.</p>
-    <ol reversed start="7">
-        <li>React</li>
-        <li>Node.js</li>
-        <li>Wordpress</li>
-    </ol>
+<body style="font-family: Arial, Helvetica, sans-serif;">
+   <header style="background-color: blue; color:white; text-align: center; padding: 10px;">
+        <h1 style="font-size: 40px;"><b>Tourist Places in India</b></h1>
+        <nav>
+            <button><a style="text-decoration: none;" href="#about">About</a></button>
+            <button><a style="text-decoration: none;" href="#destinations">Destinations</a></button>
+        </nav>
+   </header>
+   <main style="padding: 10px;">
+        <section id="about">
+            <div>
+                <img title="Taj Mahal" src="https://images.unsplash.com/photo-1564507592333-c60657eea523?w" width="100%">                
+            </div>
+        </section>
+
+
+        <section id="destinations" >
+            <center><h1>Popular Tourist Destinations</h1></center>
+            <p>India offers an incredibly diverse array of tourist destinations, ranging from the majestic peaks of the Himalayas to serene tropical backwaters. Whether you are seeking rich history, thrilling adventures, or relaxing beach getaways, you can discover a world of experiences using the Tripadvisor India Attractions directory to plan your trip.
+            </p>
+            <ul type="none">
+                <li><h3>Top Cultural & Historical Landmarks - <a href="#landmarks"><img src="https://cdn-icons-png.flaticon.com/128/7079/7079548.png" width="20" height="20"></a></h3>
+                    <ul type="disc">
+                        <li>Hyderabad, Telangana</li>
+                        <li>Jaipur, Rajasthan</li>
+                        <li>Varanasi, Uttar Pradesh</li>
+                    </ul>
+                </li>
+
+                <li><h3>Nature, Hills, and Adventure - <a href="#Hills"><img src="https://cdn-icons-png.flaticon.com/128/7079/7079548.png" width="20" height="20"></a></h3>
+                    <ul type="disc">
+                        <li>Ladakh</li>
+                        <li>Munnar, Kerala</li>
+                        <li>Manali, Himachal Pradesh</li>
+                    </ul>
+                </li>
+
+                <li><h3>Beaches and Backwaters - <a href="#beaches"><img src="https://cdn-icons-png.flaticon.com/128/7079/7079548.png" width="20" height="20"></a></h3>
+                    <ul type="disc">
+                        <li>Goa</li>
+                        <li>Alleppey, Kerala</li>
+                        <li>Andaman & Nicobar Islands</li>
+                    </ul>
+                </li>
+            </ul>
+            <div>
+                <div id="landmarks">
+                    <h2 style="text-align: center;">Top Cultural & Historical Landmarks</h2>
+                    <div style="display: flex; justify-content: space-evenly;" >
+                        <!-- Charminar, Telangana-->
+                        <div style="background-color: white; border-radius:20px; width: 300px; box-shadow: 2px 2px 4px black; margin: 10px;" class="sty">
+                            <img title="Charminar" src="https://i.pinimg.com/1200x/81/0b/0c/810b0c6142d3fbeeb271c4300747fbb8.jpg" style="width: 300px; height: 200px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <div style="padding: 10px;">
+                                <h3>Charminar</h3>
+                                <p>The Charminar is an iconic monument and mosque in Hyderabad, India. Built in 1591 by Sultan Muhammad Quli Qutb Shah, it commemorates the founding of the city and the eradication of a plague. Its name translates to "four towers" in Urdu, honoring the structure's four towering minarets</p>
+                                <a href="#destinations"><img src="https://static.thenounproject.com/png/1165042-200.png" width="16" height="16"></a>
+                            </div>
+                        </div>
+                        <!-- Jaipur, Rajasthan-->
+                        <div style="background-color: white; border-radius:20px; width: 300px; box-shadow: 2px 2px 4px black; margin: 10px;" class="sty">
+                            <img title="Jaipur" src="https://i.pinimg.com/736x/f4/8d/c7/f48dc75c33b2caaa94773192e8e73c71.jpg" style="width: 300px; height: 200px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <div style="padding: 10px;">
+                                <h3>Jaipur</h3>
+                                <p>Jaipur, the capital of Rajasthan, is India's first planned city, founded in 1727 by Maharaja Sawai Jai Singh II. Known as the "Pink City" after being painted to welcome Prince Albert in 1876.</p>
+                                <a href="#destinations"><img src="https://static.thenounproject.com/png/1165042-200.png" width="16" height="16"></a>
+                            </div>
+                        </div>
+                        <!-- Varanasi, Uttar Pradesh-->
+                        <div style="background-color: white; border-radius:20px; width: 300px; box-shadow: 2px 2px 4px black; margin: 10px;" class="sty">
+                            <img title="Varnasi" src="https://i.pinimg.com/736x/62/16/b7/6216b7553bcc570cedea494797fb2664.jpg" style="width: 300px; height: 200px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <div style="padding: 10px;">
+                                <h3>Varanasi</h3>
+                                <p>Varanasi, also known as Banaras or Benares, is a city in Uttar Pradesh, northern India, situated on the Ganges River. It stands as one of the world's oldest continuously inhabited cities and a major religious hub.</p>
+                                <a href="#destinations"><img src="https://static.thenounproject.com/png/1165042-200.png" width="16" height="16"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="Hills">
+                    <h2 style="text-align: center;">Nature, Hills, and Adventure</h2>
+                    <div style="display: flex; justify-content: space-evenly;" >
+                        <!-- Ladakh-->
+                        <div style="background-color: white; border-radius:20px; width: 300px; box-shadow: 2px 2px 4px black; margin: 10px;" class="sty">
+                            <img title="Ladak" src="https://i.pinimg.com/1200x/dd/5c/a0/dd5ca0db69003e5e988ff10ee400b18c.jpg" style="width: 300px; height: 200px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <div style="padding: 10px;">
+                                <h3>Ladakh</h3>
+                                <p>Ladakh is a high-altitude Union Territory in northern India, known as the "Land of High Passes." Bordered by the Himalayas and Karakoram ranges, it functions as a stunning, sparsely populated cold desert famous for its striking mountain beauty and rich Buddhist culture.</p>
+                                <a href="#destinations"><img src="https://static.thenounproject.com/png/1165042-200.png" width="16" height="16"></a>
+                            </div>
+                        </div>
+                        <!-- Munnar, Kerala-->
+                        <div style="background-color: white; border-radius:20px; width: 300px; box-shadow: 2px 2px 4px black; margin: 10px;" class="sty">
+                            <img title="Munnar" src="https://i.pinimg.com/1200x/c8/8d/85/c88d855dac14bbe33590933e08dd52c7.jpg" style="width: 300px; height: 200px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <div style="padding: 10px;">
+                                <h3>Munnar</h3>
+                                <p>Munnar is a breathtaking hill station in the Idukki district of Kerala, perched at an altitude of 1,600 meters in the Western Ghats. Famous for its emerald-green tea plantations, mist-covered valleys, and cool climate, it is a premier South Indian getaway.</p>
+                                <a href="#destinations"><img src="https://static.thenounproject.com/png/1165042-200.png" width="16" height="16"></a>
+                            </div>
+                        </div>
+                        <!-- Manali, Himachal Pradesh-->
+                        <div style="background-color: white; border-radius:20px; width: 300px; box-shadow: 2px 2px 4px black; margin: 10px;" class="sty">
+                            <img title="Manali" src="https://i.pinimg.com/736x/72/5c/ae/725cae8966554d6a02bae5e30819be96.jpg" style="width: 300px; height: 200px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <div style="padding: 10px;">
+                                <h3>Manali</h3>
+                                <p>Manali is a premier hill station in Himachal Pradesh, located in the Kullu Valley at an altitude of 2,050 meters. Famous for its snow-capped peaks, pine forests, and the Beas River, it acts as a primary gateway to Ladakh and a hub for adventure sports like paragliding and skiing</p>
+                                <a href="#destinations"><img src="https://static.thenounproject.com/png/1165042-200.png" width="16" height="16"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="beaches">
+                    <h2 style="text-align: center;">Beaches and Backwaters</h2>
+                    <div style="display: flex; justify-content: space-evenly;" >
+                        <!-- Goa-->
+                        <div style="background-color: white; border-radius:20px; width: 300px; box-shadow: 2px 2px 4px black; margin: 10px;" class="sty">
+                            <img title="Goa" src="https://i.pinimg.com/736x/c7/1b/54/c71b543df0e2ca6355f7852654da577d.jpg" style="width: 300px; height: 200px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <div style="padding: 10px;">
+                                <h3>Goa</h3>
+                                <p>Goa, India's premier beach capital, seamlessly blends vibrant nightlife, rich Portuguese heritage, and serene landscapes. It is broadly split into North Goa (known for bustling party scenes, water sports, and beach shacks) and South Goa (famous for tranquil, secluded stretches, luxury resorts, and ancient churches).</p>
+                                <a href="#destinations"><img src="https://static.thenounproject.com/png/1165042-200.png" width="16" height="16"></a>
+                            </div>
+                        </div>
+                        <!-- Alleppey, Kerala-->
+                        <div style="background-color: white; border-radius:20px; width: 300px; box-shadow: 2px 2px 4px black; margin: 10px;" class="sty">
+                            <img title="Alleppey" src="https://i.pinimg.com/736x/d0/f9/40/d0f9406c7dc905f391a2f2bdeda8fd66.jpg" style="width: 300px; height: 200px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <div style="padding: 10px;">
+                                <h3>Alleppey</h3>
+                                <p>Alleppey (Alappuzha) is the crown jewel of Kerala's backwaters. Famous as the "Venice of the East", this coastal town is best known for its labyrinth of emerald lagoons, iconic houseboat cruises, and serene coastal beaches.</p>
+                                <a href="#destinations"><img src="https://static.thenounproject.com/png/1165042-200.png" width="16" height="16"></a>
+                            </div>
+                        </div>
+                        <!-- Andaman & Nicobar Islands-->
+                        <div style="background-color: white; border-radius:20px; width: 300px; box-shadow: 2px 2px 4px black; margin: 10px;" class="sty">
+                            <img title="Andaman & Nicobar" src="https://i.pinimg.com/736x/05/94/ee/0594eeb27d881863008a9ca4f9d757c4.jpg" style="width: 300px; height: 200px; border-top-left-radius: 20px; border-top-right-radius: 20px;">
+                            <div style="padding: 10px;">
+                                <h3>Andaman & Nicobar Islands</h3>
+                                <p>The Andaman and Nicobar Islands are a pristine Indian archipelago in the Bay of Bengal known for turquoise waters and rich marine life. Accessible via flights to Port Blair (Sri Vijaya Puram), the ideal tourist season is October to May.</p>
+                                <a href="#destinations"><img src="https://static.thenounproject.com/png/1165042-200.png" width="16" height="16"></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        
+   </main>
+   <footer style="background-color: blue; color:white; text-align: center; padding: 10px;">
+        <p><b>&copy;</b> 2026 Top Tourist Places in India</p>
+   </footer>
 </body>
 </html>
