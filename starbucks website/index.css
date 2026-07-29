@@ -1,0 +1,127 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.top-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.top-section-1{
+    display: flex;
+}
+
+.header-logo{
+    width: 60px;
+    height: 60px;
+}
+.nav-position{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.nav-links{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.nav-hov:hover{
+    color: #016243;
+}
+
+.location-logo{
+    width: 20px;
+    height: 20px;
+    margin-top: 16px;
+}
+
+.location-style{
+    padding-bottom: 20px;
+}
+
+.button-styles{
+    padding: 8px;
+    border-radius: 30px;
+}
+
+.button-styles-1{
+    background-color: transparent;
+    width: 120px; 
+}
+
+.button-styles-2{
+    background-color: black; 
+    color: white;
+    width: 120px; 
+}
+
+.btn-hov:hover{
+    background-color: grey; 
+    color:white;
+    border-width: 0px;
+}
+
+.nav-sty{
+    text-decoration: none;
+}
+
+.nav-1{
+    color: black;
+}
+
+.nav-2{
+    color: white;
+}
+
+.top-sub-section{
+    background-color:#32452F;
+    text-align: center;
+    padding: 15px;
+    color:white;
+}
+
+.top-sub-button-sty{
+    border:2px solid white ;
+    background-color: transparent;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.card-container{
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-style{
+    width: 50vw;
+    height: 400px;
+}
+
+.text-container{
+    background-color: #016243;
+    width: 50vw;
+    height: 400px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-container-heading{
+    font-size: 26px;
+}
+
+.text-container-para{
+    font-size: 16px;
+}
+
+.text-container-button{
+    color: white;
+}

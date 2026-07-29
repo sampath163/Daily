@@ -1,0 +1,189 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.top-section{
+    text-align: center;
+    color: white;
+    background-image:linear-gradient(to right, blue , lightblue);
+    padding: 30px;
+}
+
+.btn-style{
+    padding:10px;
+    border-radius: 20px;
+    border:2px solid white;
+    margin-left: 10px;
+}
+
+.btn-1{
+    background-color: white;
+    color:rgb(68, 110, 215);
+    
+}
+
+.btn-2{
+    background-color: transparent;
+    color: white;
+}
+
+.top-sub-section{
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.top-sub-section h2{
+    color:rgb(68, 110, 215);
+}
+
+.top-sub-section p{
+    color:lightslategray;
+}
+
+.main-card{
+    background-color: #F4F4F4;
+    padding: 10px;
+}
+
+.main-container{
+    text-align: center;
+    padding: 30px;
+
+}
+
+.main-container-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-container{
+    background-color: white;
+    padding: 55px;
+    box-shadow: 5px 5px 10px #F4F4F4;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.card-container:hover{
+    border: 1px solid rgb(68, 110, 215);
+    transform: translateY(-15px);
+}
+
+.card-container h3{
+    font-size: 18px;
+    color:rgb(68, 110, 215);
+}
+
+.card-container p{
+    font-size: 16px;
+    color:lightslategray;
+}
+
+.card-style h3{
+    color:rgb(68, 110, 215);
+}
+
+.bottom-container{
+    margin-right: 100px;
+    margin-left:100px ;
+   
+}
+
+.bottom-main-container{
+    padding-left:30px;
+    padding-right:30px;
+    padding-top:20px;
+    background-color: white;
+    text-align: center;
+}   
+
+.bottom-card-container{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid rgb(68, 110, 215);
+    margin: 10px;
+    border-radius: 10px;
+    text-align: left;
+    
+}
+
+.bottom-card-container h3{
+    font-size: 16px;
+    
+}
+
+.bottom-card-container small{
+    line-height: 0.9;
+}
+
+.bottom-sub-container{
+    color: white;
+    background-image: linear-gradient(to right, blue , lightblue);
+    text-align: center;
+    padding: 10px;
+}
+
+.input-styling{
+    border-radius: 25px;
+    padding: 10px;
+    border-width: 0px;
+    margin-left: 10px;
+}
+
+.submit-styling{
+    color:rgb(68, 110, 215);
+    width: 100px;
+    font-weight: bold;
+}
+
+.learing-part-container{
+    margin-top:50px;
+    text-align: center;
+}
+
+.learing-part-container h3 {
+    color: rgb(30, 29, 29);
+}
+.learing-part-container p{
+    color:lightslategray;
+}
+
+.bottom-section{
+    background-color: #343434;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    color: white;
+}
+
+.bottom-section-flex{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bottom-sub-section{
+    background-color: #222222;
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.text-decore{
+    text-decoration: none;
+}
+
+.learing-part-container-anchore{
+    text-decoration: none;
+}
+
+.learing-part-container-button{
+    background-color:  rgb(68, 110, 215);;
+    border-radius: 15px;
+    border-width: 0px;
+    padding: 10px;
+    color: white;
+    width: 120px;
+}
