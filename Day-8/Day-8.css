@@ -1,0 +1,87 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+.top-section{
+    background-color: blue; 
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.top-section h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.top-section button{
+    margin: 5px;
+    padding: 3px;
+    width: 50px;
+    border-radius: 5px;
+    border-width: 0px;
+}
+.main-section{
+    padding:30px;
+}
+.card-container{
+    display: flex; 
+    background-color:white; 
+    border-radius: 20px; 
+    height:350px; 
+    margin:20px; 
+    box-shadow:2px 2px 5px black ;
+    line-height: 2.5;
+    height: 350px;
+}
+.card-text-container{
+    padding: 10px; 
+    margin-left:50px;
+}
+.img-1{
+    width: 300px; 
+    border-top-left-radius: 20px;  
+    border-bottom-left-radius: 20px;
+    height: 350px;
+}
+.img-2{
+    width: 250px; 
+    height: 350px;
+}
+.img-2:hover{
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.line{
+    line-height: 1.5;
+    margin: 65px;
+}
+.button-1{
+    background-color: blue;
+    border-width: 0px;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    margin-top: 10px;
+}
+.center-image{
+    text-align: center;
+    margin-top: 20px;
+}
+.stats-table h1{
+    text-align: center;
+    color:#0B5394;
+}
+.stats-table h2{
+    text-align: center;
+    color:#006400;
+    margin-top: 10px;
+}
+table{
+    text-align: center;
+}
+th{
+    background:#0B5394;
+    color:white;
+}
