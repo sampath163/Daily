@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Pseudo Class Practice</title>
+    <link rel="stylesheet" href="practice.css">
+</head>
+<body>
+
+<section>
+
+    <div class="card first">
+        <p>:first-child</p>
+        <div class="circle-box">
+            <span class="cir-1">1</span>
+            <span class="cir-1">2</span>
+            <span class="cir-1">3</span>
+            <span class="cir-1">4</span>
+            <span class="cir-1">5</span>
+            <span class="cir-1">6</span>
+            <span class="cir-1">7</span>
+            <span class="cir-1">8</span>
+            <span class="cir-1">9</span>
+            <span class="cir-1">10</span>
+        </div>
+    </div>
+
+    <div class="card last">
+        <p>:last-child</p>
+        <div class="circle-box">
+            <span class="cir-1">1</span>
+            <span class="cir-1">2</span>
+            <span class="cir-1">3</span>
+            <span class="cir-1">4</span>
+            <span class="cir-1">5</span>
+            <span class="cir-1">6</span>
+            <span class="cir-1">7</span>
+            <span class="cir-1">8</span>
+            <span class="cir-1">9</span>
+            <span class="cir-1">10</span>
+        </div>
+    </div>
+
+    <div class="card nth">
+        <p>:nth-child(3)</p>
+        <div class="circle-box">
+            <span class="cir-1">1</span>
+            <span class="cir-1">2</span>
+            <span class="cir-1">3</span>
+            <span class="cir-1">4</span>
+            <span class="cir-1">5</span>
+            <span class="cir-1">6</span>
+            <span class="cir-1">7</span>
+            <span class="cir-1">8</span>
+            <span class="cir-1">9</span>
+            <span class="cir-1">10</span>
+        </div>
+    </div>
+
+    <div class="card odd">
+        <p>:nth-child(odd)</p>
+        <div class="circle-box">
+            <span class="cir-1">1</span>
+            <span class="cir-1">2</span>
+            <span class="cir-1">3</span>
+            <span class="cir-1">4</span>
+            <span class="cir-1">5</span>
+            <span class="cir-1">6</span>
+            <span class="cir-1">7</span>
+            <span class="cir-1">8</span>
+            <span class="cir-1">9</span>
+            <span class="cir-1">10</span>
+        </div>
+    </div>
+
+    <div class="card even">
+        <p>:nth-child(even)</p>
+        <div class="circle-box">
+            <span class="cir-1">1</span>
+            <span class="cir-1">2</span>
+            <span class="cir-1">3</span>
+            <span class="cir-1">4</span>
+            <span class="cir-1">5</span>
+            <span class="cir-1">6</span>
+            <span class="cir-1">7</span>
+            <span class="cir-1">8</span>
+            <span class="cir-1">9</span>
+            <span class="cir-1">10</span>
+        </div>
+    </div>
+
+    <div class="card nplus2">
+        <p>:nth-child(n+2)</p>
+        <div class="circle-box">
+            <span class="cir-1">1</span>
+            <span class="cir-1">2</span>
+            <span class="cir-1">3</span>
+            <span class="cir-1">4</span>
+            <span class="cir-1">5</span>
+            <span class="cir-1">6</span>
+            <span class="cir-1">7</span>
+            <span class="cir-1">8</span>
+            <span class="cir-1">9</span>
+            <span class="cir-1">10</span>
+        </div>
+    </div>
+
+    <div class="card twonplus2">
+        <p>:nth-child(2n+2)</p>
+        <div class="circle-box">
+            <span class="cir-1">1</span>
+            <span class="cir-1">2</span>
+            <span class="cir-1">3</span>
+            <span class="cir-1">4</span>
+            <span class="cir-1">5</span>
+            <span class="cir-1">6</span>
+            <span class="cir-1">7</span>
+            <span class="cir-1">8</span>
+            <span class="cir-1">9</span>
+            <span class="cir-1">10</span>
+        </div>
+    </div>
+
+    <div class="card twon">
+        <p>:nth-child(2n)</p>
+        <div class="circle-box">
+            <span class="cir-1">1</span>
+            <span class="cir-1">2</span>
+            <span class="cir-1">3</span>
+            <span class="cir-1">4</span>
+            <span class="cir-1">5</span>
+            <span class="cir-1">6</span>
+            <span class="cir-1">7</span>
+            <span class="cir-1">8</span>
+            <span class="cir-1">9</span>
+            <span class="cir-1">10</span>
+        </div>
+    </div>
+
+</section>
+
+<section>
+    <div>
+        <div class="top-container">
+            <h2>CSS Syntax</h2>
+            <p>Understanding CSS selectors, properties, and values</p>
+        </div>
+        <div class="synatx-conatiner">
+            <h3>CSS Rule Structure</h3>
+            <p>A CSS rule consists of a selector and a declaration block. The declaration block contains one or more declarations separated by<br> semicolons. Each declaration includes a CSS property name and a value, separated by a colon.</p>
+            <div class="code">
+                <p>selector { property: value; property: value; }</p>
+            </div>
+            <h3>CSS Selectors</h3>
+            <p>Selectors are patterns used to select the elements you want to style.</p>
+            <ol>
+                <li>Element Selectors</li>
+                <li>ID Selectors</li>
+                <li>Class Selectors</li>
+                <li>Universal Selector</li>
+                <li>Combinator Selectors
+                    <ul>
+                        <li>Descendant Selector</li>
+                        <li>Child Selector</li>
+                        <li>Adjacent Sibling Selector</li>
+                        <li>General Sibling Selector</li>
+                    </ul>
+                </li>
+                <li>Attribute Selectors</li>
+                <li>Pseudo-class Selectors
+                    <ul>
+                        <li>:hover</li>
+                        <li>:focus</li>
+                        <li>:nth-child()</li>
+                    </ul>
+                </li>
+                <li>Pseudo-element Selectors
+                    <ul>
+                        <li>::before</li>
+                        <li>::after</li>
+                        <li>::first-letter</li>
+                        <li>::first-line</li>
+                    </ul>
+                </li>
+            </ol>
+            <h3>Element Selector</h3>
+            <p>Select elements based on their tag name:</p>
+            <div class="code">
+                <p>h1 { color: blue; } p { font-size: 16px; }</p>
+            </div>
+
+            <h3>ID Selectors</h3>
+            <p>Select elements based on their id attribute (use # symbol):</p>
+            <div class="code">
+                <p>#header { background-color: #333; color: white; padding: 20px; }</p>
+            </div>
+            
+            <h3>Class Selectors</h3>
+            <p>Select elements based on their class attribute (use . symbol):</p>
+            <div class="code">
+                <p>.highlight { background-color: yellow; } .button { padding: 10px 20px; border: none; border-radius: 5px; }</p>
+            </div>
+
+            <h3>Universal Selector</h3>
+            <p>Selects all elements (*) in the document:</p>
+            <div class="code">
+                <p>* { margin: 0; padding: 0; box-sizing: border-box; }</p>
+            </div>
+
+            <h3>Grouping Selectors</h3>
+            <p>To minimize code, you can group selectors with the same declarations using commas:</p>
+            <div class="code">
+                <p>h1, h2, h3 { color: #333; font-family: Arial, sans-serif; } p, div, span { line-height: 1.6; }</p>
+            </div>
+
+            <h3>Combinator Selectors</h3>
+            <h4>Descendant Selector</h4>
+            <p>Selects elements that are descendants of another element (space between selectors):</p>
+            <div class="code">
+                <p>div p { color: blue; }</p>
+            </div>
+
+            <h4>Child Selector</h4>
+            <p>Selects elements that are direct children of another element (use > symbol):</p>
+            <div class="code">
+                <p>div > p { color: red; }</p>
+            </div>
+
+            <h4>Adjacent Sibling Selector</h4>
+            <p>Selects an element that is directly after another specific element (use + symbol):</p>
+            <div class="code">
+                <p>h1 + p { font-weight: bold; }</p>
+            </div>
+
+             <h4>General Sibling Selector</h4>
+            <p>Selects elements that are siblings of another element (use ~ symbol):</p>
+            <div class="code">
+                <p>h1 ~ p { color: green; }</p>
+            </div>
+
+            <h3>Attribute Selectors</h3>
+            <h4>[attribute]</h4>
+            <p>Selects elements with a specific attribute:</p>
+            <div class="code">
+                <p>[title] { border: 1px solid blue; }</p>
+            </div>
+
+            <h4>[attribute="value"]</h4>
+            <p>Selects elements with a specific attribute value:</p>
+            <div class="code">
+                <p>[type="text"] { width: 200px; padding: 5px; }</p>
+            </div>
+
+            <h4>[attribute~="value"]</h4>
+            <p>Selects elements with an attribute value containing a specified word:</p>
+            <div class="code">
+                <p>[title~="flower"] { color: green; }</p>
+            </div>
+
+             <h4>[attribute|="value"]</h4>
+            <p>Selects elements with an attribute value that starts with a specified value:</p>
+            <div class="code">
+                <p>[lang|="en"] { color: blue; }</p>
+            </div>
+
+            <h3>Pseudo-class Selectors</h3>
+            <h4>:hover</h4>
+            <p>Selects elements when you hover over them:</p>
+            <div class="code">
+                <p>a:hover { color: red; }</p>
+            </div>
+
+            <h4>:focus</h4>
+            <p>Selects elements when they have focus:</p>
+            <div class="code">
+                <p>input:focus { border: 2px solid blue; }</p>
+            </div>
+
+            <h4>:nth-child()</h4>
+            <p>Selects elements based on their position among siblings:</p>
+            <div class="code">
+                <p>tr:nth-child(even) { background-color: #f2f2f2; } tr:nth-child(odd) { background-color: #ffffff; }</p>
+            </div>
+
+            <h3>Pseudo-element Selectors</h3>
+            <h4>::before</h4>
+            <p>Inserts content before the content of an element:</p>
+            <div class="code">
+                <p>p::before { content: "→ "; color: blue; }</p>
+            </div>
+
+            <h4>::after</h4>
+            <p>Inserts content after the content of an element:</p>
+            <div class="code">
+                <p>p::after { content: " ←"; color: red; }</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>

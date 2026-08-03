@@ -1,0 +1,119 @@
+/* *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+} */
+
+body{
+    background:#808080;
+    padding:30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+section{
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    margin: 20px;
+}
+
+.card{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow:0 0 8px rgba(0,0,0,.2);
+}
+
+.card p{
+    width:180px;
+    font-weight:bold;
+}
+
+.circle-box{
+    display:flex;
+    gap:10px;
+}
+
+.cir-1{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:#0066ff;
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition:.3s;
+}
+
+/* Hover Effects */
+
+.first:hover .cir-1:first-child{
+    background:#fff;
+    color:#0066ff;
+    border:2px solid #0066ff;
+}
+
+.last:hover .cir-1:last-child{
+    background:#fff;
+    color:#0066ff;
+    border:2px solid #0066ff;
+}
+
+.nth:hover .cir-1:nth-child(3){
+    background:#fff;
+    color:#0066ff;
+    border:2px solid #0066ff;
+}
+
+.odd:hover .cir-1:nth-child(odd){
+    background:#fff;
+    color:#0066ff;
+    border:2px solid #0066ff;
+}
+
+.even:hover .cir-1:nth-child(even){
+    background:#fff;
+    color:#0066ff;
+    border:2px solid #0066ff;
+}
+
+.nplus2:hover .cir-1:nth-child(n+2){
+    background:#fff;
+    color:#0066ff;
+    border:2px solid #0066ff;
+}
+
+.twonplus2:hover .cir-1:nth-child(2n+2){
+    background:#fff;
+    color:#0066ff;
+    border:2px solid #0066ff;
+}
+
+.twon:hover .cir-1:nth-child(2n){
+    background:#fff;
+    color:#0066ff;
+    border:2px solid #0066ff;
+}
+.top-container{
+    background-color: orange;
+    color: grey;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 1px;
+}
+.synatx-conatiner h3{
+    color: orange;
+}
+.synatx-conatiner p{
+    color: grey;
+}
+.code{
+    background-color: rgb(26, 25, 25);
+    padding:5px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
