@@ -11,13 +11,13 @@ body{
 }
 
 section{
-    background:#fff;
+    background:linear-gradient(to right, lightpink  ,lightyellow,lightgray,lightblue,lightgreen);
     padding:30px;
     border-radius:20px;
     margin: 20px;
 }
 
-.card{
+/* .card{
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -49,9 +49,16 @@ section{
     transition:.3s;
 }
 
+
+
+
+
 /* Hover Effects */
 
-.first:hover .cir-1:first-child{
+
+
+
+/* .first:hover .cir-1:first-child{
     background:#fff;
     color:#0066ff;
     border:2px solid #0066ff;
@@ -116,4 +123,52 @@ section{
     padding:5px;
     border-radius: 5px;
     margin-top: 20px;
+}  */
+
+
+h1{
+    text-align: center;
+    background:linear-gradient(to right, green,blue,red,yellow,black) ;
+    background-clip: text; 
+    color:transparent;
+}
+div{
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    border: 2px solid #000;
+    color: white;   
+    padding: 60px;
+    margin-bottom: 20px;
+}
+div:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
+.spider-man{
+    background-image: url('https://i.pinimg.com/736x/2e/2f/57/2e2f576e66368911e9ab1dbcce710d29.jpg'); 
+    background-position: center;  
+}
+
+
+.iron-man{
+    background-image: url('https://i.pinimg.com/1200x/52/43/f2/5243f2036741b8c2000c79ba4a5065be.jpg');
+    background-position: center;
+
+}
+
+.captain-america{
+    background-image: url('https://i.pinimg.com/1200x/ca/dd/87/cadd87093d4b17054e34c41d877ca848.jpg');
+    background-position: top;
+}
+
+.thor{
+    background-image: url('https://i.pinimg.com/1200x/c5/b5/a0/c5b5a0094b5f3128ec5be7b90c134c0d.jpg');
+    background-position: top;
+}
+
+.hulk{
+    background-image: url('https://i.pinimg.com/1200x/9c/4a/73/9c4a73fa39efa6226a8cd4d44edbc87b.jpg');
+    background-position: top;
+
 }
