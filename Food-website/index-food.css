@@ -1,4 +1,138 @@
 *{
-    padding: 0;
+    /* padding: 0; */
+    font-family: arial, Helvetica, sans-serif;
 }
 /* Index styles */
+
+header{
+    top:0;
+    z-index: 100;
+    position: sticky;
+}
+.website-logo{
+    width: 60px;
+    height: 60px;
+}
+.margin-style{
+    margin-left: auto;
+}
+#nav-link{
+    color: #000;
+}
+
+
+.banner-section{
+    background-image:url('https://d2clawv67efefq.cloudfront.net/ccbp-responsive-website/foodmunch-banner-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    text-align: center;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.banner-content h1{
+    font-size: 45px;
+    color: #fff;
+    font-weight: bold;
+
+}
+.banner-content p{
+    font-size: 22px;
+    color: #f5f7fa;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.custom-button{
+    border-radius: 10px;
+    padding: 10px 20px;
+    border:1px solid #d0b200;
+    margin:10px;
+    text-decoration: none;
+}
+.view-button{
+    background-color: #d0b200;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.order-button{
+    background-color:transparent;
+    color: #d0b200;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+
+.wcu-section {
+  background-color: #f9fbfe;
+}
+.wcu-section-heading {
+  color: #183b56;
+  font-size: 28px;
+  font-weight: 700;
+  padding-top:50px;
+}
+.wcu-section-description {
+  color: #5a7184;
+  font-size: 16px;
+}
+.wcu-card {
+  text-align: center;
+  background-color: white;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e5eaf4;
+  border-radius: 16px;
+}
+.wcu-card-image {
+  width: 87px;
+  height: 90px;
+}
+.wcu-card-title {
+  color: #323f4b;
+  font-size: 22px;
+  font-weight: 500;
+}
+.wcu-card-description {
+  color: #7b8794;
+  font-size: 16px;
+}
+.offers {
+  color: #d0b200;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.explore-menu-section{
+    background-color: #f9fbfe; 
+}
+.explore-menu-section h1{
+    color: #183b56;
+    font-size: 28px;
+    font-weight: 700;
+    padding-top:50px;
+}
+.menu-card{
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+}
+.menu-image{
+    border-radius: 20px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.menu-card h3{
+    color: #183b56;
+    font-size: 20px;
+    font-weight: 700;
+}
+.menu-card-link{
+    color: #d0b200;
+}

@@ -132,6 +132,10 @@ h1{
     background-clip: text; 
     color:transparent;
 }
+.bh:hover{
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
+}
 div{
     background-size: cover;
     background-repeat: no-repeat;
