@@ -35,6 +35,9 @@ a{
     margin-left: 15px;
     font-size:17px;
 }
+.mar-top{
+    margin-top: -6px;
+}
 .custom-button{
     background-color: #1296E8;
     color: white;

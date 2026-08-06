@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #ECA958;
+    height: 100vh;
+    color:#FCF1D7;
+}
+
+.coffe-bg-container{
+    background-image: url('https://res.cloudinary.com/ds1jbsygt/image/upload/v1786008850/bg_hejk7u.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.flex{
+    display: flex;
+    margin-top: -15px;
+    margin-left: 40px;
+}
+.header-img{
+    width: 40px;
+    height: 40px;
+}
+.header-img-style{
+    margin-left: 5px;
+}
+
+a{
+    text-decoration: none;
+    margin-left:55px;
+    color: #FCF1D7;
+}
+.sty{
+    margin-right: 10px;
+}
+.custom-button{
+    background-color: #FB7A22;
+    border-radius: 30px;
+    text-align: center;
+    border-width: 0px;
+    padding: 8px;
+    color: #FCF1D7;
+    width: 100px;
+    margin-top: -10px;
+}
+.main{
+    margin-left: 140px;
+    /* line-height: 1; */
+
+}
+.main-heading{
+    font-size: 60px;
+    margin-top: 80px;
+}
+.main-paragraph{
+    font-size: 15px;
+    margin-top: -30px;
+    line-height: 1.5;
+}
+.button-flex{
+    display: flex;
+    background-color:#FB7A22 ;
+    border-radius: 30px;
+    text-align: center;
+    border-width: 0px;
+    padding: 8px;
+    font-size: 14px;
+    width: max-content;
+}
+.arrow-style{
+    background-color: white;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    color: black;
+    margin-left: 10px;
+    padding: auto;
+    text-align: center;
+}
+.text-flex{
+    display: flex;
+    margin-left: -20px;
+}
+.ratings{
+    font-size: 12px;
+    margin-top: -20px;
+}
+.plus{
+    color:#FB7A22 ;
+}
+.size h1{
+    font-size: 40px;
+}
+.border-left{
+    border-right: 1px solid #FB7A22;
+    padding-right:20px;
+    margin:20px;
+}
+.border-left-1{
+    padding-right:20px;
+    margin:20px;
+}
+.footer{
+    margin-left: 140px;
+    margin-top: 40px;
+}
+.footer-buutons{
+    background-color: transparent;
+    border-radius: 30px;
+    border: 1px solid #FCF1D7;
+    padding: 8px;
+    color:#FCF1D7 ;
+    margin: 5px;
+}
