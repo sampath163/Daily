@@ -1,0 +1,208 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-flex{
+    display: flex;
+    background-color: #ffffff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 45px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.global-logo{
+    height: 35px;
+    width: 35px;
+
+}
+.wrd-style{
+    color: #3E6AC1;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+    font-weight: 600;
+}
+nav a:hover{
+    text-decoration:underline;
+    color: #3E6AC1;
+}
+.link-but{
+    background-color: #3E6AC1;
+    color: #ffffff;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 5px 10px;
+}
+.discount{
+    position: fixed;
+    left:5px;
+    bottom: 5px;
+}
+.disc-img{
+    height: 70px;
+    width: 70px;
+}
+.main-top-container{
+    background-image: url('https://res.cloudinary.com/ds1jbsygt/image/upload/v1786616369/beach-1_g5cazi.jpg');
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+    padding: 35px 120px;
+}
+.main-top-container h1{
+    font-size: 60px;
+}
+.main-top-container-heading{
+    color: #3E6AC1;
+    margin-bottom: 15px;
+}
+.main-top-container p{
+    color: black;
+}
+.main-top-container-button{
+    background-color: #3E6AC1;
+    color: #ffffff;
+    border-radius: 5px;
+    border-width: 0px;
+    padding: 15px 30px;  
+    margin-top: 15px;
+}
+.support{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 0px;
+
+}
+.card-supp{
+    display: flex;
+}
+.icon-bg{
+    background-color: #3E6AC1;
+    padding: 10px;
+    border-radius: 100%;
+    color: #ffffff;
+    margin-right: 10px;
+}
+.icon-sty{
+    rotate: 320deg;
+}
+.text-card-support h4{
+    font-size: 13px;
+}
+.text-card-support p{
+    font-size: 11px;
+}
+
+.popular-destinations{
+    padding: 10px;
+}
+.text-center{
+    text-align: center;
+}
+.destination-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 0px;
+}
+.card{
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 3px 3px 10px ;
+}
+.card-img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+}
+.text-card{
+    padding: 10px;
+}
+.text-card h4{
+    margin-bottom: 5px;
+}
+.text-card p{
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+.read-link{
+    text-decoration: none;
+    font-size: 13px;
+    color: #3E6AC1;
+}
+.offer-bg{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    width: 70vw;
+    margin: 0 auto;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+.gift-img{
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.offer-text{
+    display: flex;
+    align-items: center;
+}
+.text span{
+    color: red;
+}
+
+.bottom-container{
+    background-color: #002A54;
+    color: #ffffff;
+    padding: 20px 40px;
+}
+.bootom-flex{
+        display: flex;
+    justify-content: space-evenly;
+}
+.footer-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.center{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.center span{
+    font-size: 30px;
+}
+.bottom-container p{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.bottom-container h3{
+    margin-bottom: 10px;
+}
+.felx-icons{
+    display: flex;
+}
+.mrg-l{
+    margin-right: 30px;
+}
+i {
+    color: #ffffff;
+}
+.anchore-color{
+    color: #ffffff;
+}

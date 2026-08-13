@@ -133,7 +133,6 @@ a{
 .card{
     border-radius: 15px;
     width: 300px;
-    box-shadow: 3px 3px 13px;
     margin: 0px 10px;
     display: flex;
     flex-direction: column;
@@ -141,6 +140,7 @@ a{
 .card:hover{
     transform: translateY(-12px);
     transition: transfrom all 3s ease-in ;
+    box-shadow: 3px 3px 13px;
 }
 
 .card h3{

@@ -4,10 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Gallery</title>
+    <style>
+        .header{
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        .help{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+        }
+        .help-img{
+            height: 50px;
+            width: 50px;
+        }
+        .media{
+            background-color: black;
+            color: white;
+            height: 200px;
+            width:400px;
+            position: relative;
+            margin: 30px;
+            border: 2px solid red;
+        }
+        span{
+            color: red;
+        }
+        .media h1{
+            position: absolute;
+            right: 20px;
+            bottom: 100px;
+
+
+        }
+    </style>
 </head>
 <body style="margin: 0px; padding: 0px;">
-    <div style="background-color: black; padding: 30px;">
+    <div style="background-color: black; padding: 2px;" class="header">
         <center><h1 style="background:linear-gradient(to right, rgb(250, 78, 10), rgb(247, 12, 204) , rgb(0, 106, 255) , rgb(48, 248, 255) , rgb(250,78, 1)) ;background-clip: text; color:transparent; width: max-content;">This is My Gallery Content</h1></center>
+    </div>
+    <div class="help">
+        <img src="https://cdn-icons-png.flaticon.com/512/9247/9247296.png" class="help-img">
+    </div>
+    <div class="media">
+        <h1>S<span>a</span>m<span>p</span>a<span>t</span>h</h1>
+        <h2><span>K</span>u<span>m</span>a<span>r</span></h2>
     </div>
     <h2>Local Sources</h2>
     <ul>

@@ -32,6 +32,7 @@
 
 .anchore a:hover{
     color: black;
+    text-decoration:dotted black;
 }
 
 .main-conatiner{
@@ -53,7 +54,7 @@
     background-color: #ffffff;
     border: 2px solid #ffffff;
     padding: 10px 20px;
-    color: grey;
+    color: cyan;
     margin-top: 40px;
     font-size: 20px;
     border-radius: 10px;
@@ -62,10 +63,9 @@
     font-size: 35px;
     margin: 0px 15px;
 }
-.icon-style:hover{
-    color: grey;
-    font-size: 100px;
-    transition: all 0.3s ease;
+
+.icon-style:hover {
+    transform: scale(2.0) translateY(-10px);
 }
 
 .links a{
